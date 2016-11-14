@@ -6,7 +6,7 @@
 # simple client-server project to control virtual-machine with server
 # server.py: can send requests to client to interact with interfaces and update client
 # client.py: can interact with OS (google it: flask), /cmd/ as example
-#            can update
+#            can update itself
 
 import os
 import codecs
