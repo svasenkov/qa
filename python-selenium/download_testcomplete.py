@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# author: Vasenkov Stanislav
+# skype: police_1771
+# telegram: @iTerkin
+#
+# simple selenium script: go to page, fill forms, press buttons
+
 import random
 from string import letters
 from string import digits

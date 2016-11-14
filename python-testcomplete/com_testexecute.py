@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # author: Vasenkov Stanislav
 # skype: police_1771
 # telegram: @iTerkin
@@ -56,7 +57,7 @@ def testexecute():
     integration_object = test_execute_app.Integration
     if not integration_object.IsProjectSuiteOpened():
         integration_object.OpenProjectSuite(FRAMEWORK_PATH)
-        print 'Project is opened: ' + FRAMEWORK_PATH
+        print 'INFO (testexecute): Project is opened: ' + FRAMEWORK_PATH
 
     if integration_object.IsRunning():
         message = 'ERROR (testexecute): TestExecute is already running'
@@ -73,4 +74,4 @@ def testexecute():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=80)
