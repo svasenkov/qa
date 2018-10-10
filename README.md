@@ -1,7 +1,3 @@
-# author: Vasenkov Stanislav
-# skype: police_1771
-# telegram: @iTerkin
-
 Some scripts for qa
 1. vm-server-client/server.py, vm-server-client/client.py
    simple client-server project to control virtual-machine with server
